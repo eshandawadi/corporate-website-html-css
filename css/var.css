@@ -1,0 +1,28 @@
+:root{
+	--primary-color:  blue;
+	--secondary-color:  rgba(0,0,0,.9);
+	--accent-color:  rgba(0,0,0,0.75);
+	--dark-color: rgba(0,0,0,0.97);
+	--bg-color: rgba(0,0,0,0.12);
+	
+	--danger-color: red;
+	--success-color:  green;
+	--warning:  orange;
+
+	--light-color: white;
+	--title: 24px;
+	--sub-title:  18px;
+	--xl-title: 10vh;
+	--border-radius:  4px;
+	--font-family: 'Montserrat', sans-serif;
+
+	--xs: 4px;
+	--sm: 8px;
+	--md: 16px;
+	--lg: 24px;
+	--xl: 32px;
+	--xxl: 40px;
+	--xxxl: 48px;
+
+	--wrapper: 8vw;
+}

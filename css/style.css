@@ -1,0 +1,57 @@
+.feature-card{
+}
+
+.feature-card .icon{
+	height: 60px;
+	width: 60px;
+	border-radius: 30px;
+	display: flex;
+	justify-content: center;	
+	align-items: center;
+	background: rgba(0,0,0,0.12);
+	color: var(--primary-color);
+}
+
+.partners img{
+	height: 90px;
+	width: auto;
+	margin: 0 var(--md);
+	filter: saturate(0) brightness(6);
+}
+
+/*sections*/
+.hero{
+	background: url('https://images.pexels.com/photos/6180740/pexels-photo-6180740.jpeg') center;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.hero::before,
+.meet-our-company::before{
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background: rgba(0,0,0,0.2);
+}
+
+/*meet our company*/
+.meet-our-company{
+	background: url("https://images.pexels.com/photos/1457842/pexels-photo-1457842.jpeg") center fixed;
+	background-size: cover;
+}
+
+.stat .bar{
+	display: flex;
+	border-radius: 30px;
+	height: 6px;
+	overflow: hidden;
+	background: rgba(255,255,255,.4);
+}
+
+.stat .bar .stat-area{
+	top: 0;
+	left: 0;
+}

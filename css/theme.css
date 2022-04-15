@@ -1,0 +1,139 @@
+body{
+	font-family: var(--font-family);
+	font-size: 12px;
+}
+
+
+	.bg-primary{
+		background-color: var(--primary-color);
+	}
+	.bg-off-white{
+		background-color: var(--bg-color);
+	}
+	.bg-secondary{
+		background-color: var(--secondary-color);
+	}
+	.bg-accent{
+		background-color: var(--accent-color);
+	}
+
+	.bg-danger{
+		background-color: var(--danger-color);
+	}
+	.bg-succes{
+		background-color: var(--success-color);
+	}
+	.bg-warning{
+		background-color: var(--warning);
+	}
+
+	.bg-dark{
+		background-color: var(--dark-color);
+	}
+
+	.bg-white{
+		background-color: var(--light-color);
+	}
+
+/*text*/
+	.text-primary{
+		color: var(--primary-color);
+	}
+	.text-secondary{
+		color: var(--secondary-color);
+	}
+	.text-accent{
+		color: var(--accent-color);
+	}
+
+	.text-danger{
+		color: var(--danger-color);
+	}
+	.text-success{
+		color: var(--success-color);
+	}
+	.text-warning{
+		color: var(--warning);
+	}	
+
+	.text-white{
+		color: var(--light-color);
+	}
+
+
+/*fonts*/
+.title{
+	font-size: var(--title);
+}
+
+.title.xl{
+	font-size: var(--xl-title);
+}
+
+.sub-title{
+	font-size: var(--sub-title);
+}
+
+.bold{
+	font-weight: bold;
+}
+
+.bolder{
+	font-weight: bolder;
+}
+
+.capitalize{
+	text-transform: capitalize;
+}
+/*button*/
+
+.btn{
+	background: transparent;
+	border: none;
+	cursor: pointer;
+	border-radius: var(--border-radius);
+	background: rgba(0,0,0,0.12);
+	transition: .4s;
+	padding: var(--sm) var(--lg);
+}
+
+.btn: hover{
+	filter: brightness(.9);
+}
+
+
+.btn.primary{
+	background:  var(--primary-color);
+	color: var(--light-color);
+}
+
+.btn.secondary{
+	background:  var(--secondary-color);
+	color: var(--light-color);
+}
+
+.btn.outline.primary{
+	background: var(--light-color);
+	border: 1px solid var(--primary-color);
+	color: var(--primary-color);
+}
+
+
+/*position*/
+.fixed{
+	position: fixed;
+}
+
+.fixed-top{
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+
+.relative{
+	position: relative;
+}
+
+.absolute{
+	position: absolute;
+}
